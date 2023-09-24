@@ -89,7 +89,6 @@ section.inicio .container .info-historia .card .card-body hr{
 	border: 2px solid  #692021;;
 }
 
-
 section.inicio .container .info-bandarock{
 	display: flex;
 	justify-content: center;
@@ -99,7 +98,7 @@ section.inicio .container .info-bandarock{
 section.inicio .container .info-bandarock .card{
 	position: static;
 	background-color: #cfa566;
-	width: 85%;
+	width: 90%;
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
@@ -111,6 +110,54 @@ section.inicio .container .info-musica .list-group li.list-group-item.active{
 section.inicio .container .info-musica .list-group a{
 	position: static;
 }
+
+/* ---------> SECCION - RECOMENDACION MUSICAL <--------*/
+
+section.recomendacion-musica{
+	margin-top: 90px;
+}
+
+section.recomendacion-musica .container .info-musica{
+	display: flex;
+	justify-content: center;
+}
+section.recomendacion-musica .container .info-musica .list-group{
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+section.recomendacion-musica .container .info-musica img.card-img-top
+{
+	border-top-left-radius: 0.375rem ;
+	border-top-right-radius: 0.375rem; 
+}
+
+section.recomendacion-musica .container .info-musica .list-group li.list-group-item.active{
+	text-align: center;
+	background-color: #cfa566;
+	border:#cfa566; 
+	border-bottom: white solid 1px;
+}
+
+section.recomendacion-musica .container .info-musica .list-group a{
+	position: static;
+	background-color: #c5b09e;
+	border: #c5b09e; 
+	border-bottom: white solid 1px;
+}
+
+section.recomendacion-musica .container .info-musica .list-group a:hover{
+	background-color: #cfa566;
+}
+
+section.recomendacion-musica .container .info-musica .list-group li.list-group-item.active{
+	position: static;
+	z-index: auto;
+}
+
+
 
 /* ---------> FOOTER - PIE DE PAGINA <--------*/
 
