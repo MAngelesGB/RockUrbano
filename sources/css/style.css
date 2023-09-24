@@ -4,11 +4,14 @@ body{
 	background-color: #755b4d !important;
 }
 
+	
+
 /* ---------> MENU - NAV <--------*/
 nav.menu-principal{
 	background-color: #692021;
 	box-shadow:-1px -2px 20px 0px #1E1E1E; 
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	top: 0;
 }
 
@@ -28,7 +31,6 @@ nav.menu-principal .navbar-brand img{
 
 nav.menu-principal ul.navbar-nav li.nav-item a.nav-link{
 	color: #e8e1d2;
-	font-weight: bold;
 	font-size: 18px; 
 }
 
@@ -38,14 +40,105 @@ nav.menu-principal ul.navbar-nav li.nav-item a.nav-link:hover{
 }
 
 
-
 /* ---------> SECCION - PRINCIPAL <--------*/
 
-/*section.inicio img.imagen-principal{
-	border-top: solid 10px #2D2543;
-	border-bottom: solid 10px #2D2543;
-}*/
+section.inicio{
+	margin-top: 46px;
+}
+
+section.inicio .que-es-rockurbano{
+	display: flex;
+	justify-content: center;
+	background-color: #ce8a3b;
+	width: 100%;
+	padding: 90px;
+}
+
+section.inicio .que-es-rockurbano .texto-que-es-rockurbano{
+	text-align: justify;
+	font-size: 26px;
+	width: 73%;
+	color: #e8e1d2;
+}
+
+section.inicio .que-es-rockurbano .texto-que-es-rockurbano p{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 35px;
+}
+
+section.inicio .container .info-historia{
+	display: flex;
+	justify-content: center;
+}
+
+section.inicio .container .info-historia .card{
+	position: static;
+	background-color: #cfa566;
+	text-align: justify;
+	padding: 8px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	width: 95%;
+}
+
+section.inicio .container .info-historia .card .card-body .card-title{
+	text-align: center;
+}
+
+section.inicio .container .info-historia .card .card-body hr{
+	border: 2px solid  #692021;;
+}
 
 
+section.inicio .container .info-bandarock{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
 
+section.inicio .container .info-bandarock .card{
+	position: static;
+	background-color: #cfa566;
+	width: 85%;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
 
+section.inicio .container .info-musica .list-group li.list-group-item.active{
+	position: static;
+	z-index: auto;
+}
+
+section.inicio .container .info-musica .list-group a{
+	position: static;
+}
+
+/* ---------> FOOTER - PIE DE PAGINA <--------*/
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #692021;
+	position: absolute;
+	padding: 25px;
+	text-align: center;
+}
+
+@media (max-width: 990px){
+	section.inicio{
+		margin-top: 66px;
+	}
+	section.inicio .que-es-rockurbano{
+		padding: 25px;
+	}
+	section.inicio .que-es-rockurbano .texto-que-es-rockurbano{
+		width: 85%;
+	}
+
+	section.inicio .container .info-historia .card{
+		width: 100%;
+	}
+
+	section.inicio .container .info-bandarock .card{
+		width: 90%;
+	}
+}

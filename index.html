@@ -9,52 +9,157 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 	</head>
-  <body>
-    
-		<main>
-			<header>
-				<!--Barra de navegacion-->
-				<nav class="menu-principal navbar navbar-expand-lg">
-					<div class="container-fluid ms-4">
-						<a class="navbar-brand" href="index.html">
-							<img class="me-4" src="./sources/images/imagen-nav.png" alt="calavera-rock-urbano">
-						</a>
-						<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span>
-								<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="#e8e1d2" class="bi bi-list" viewBox="0 0 16 16">
-									<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-								</svg>
-							</span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-								<li class="nav-item">
-									<a class="nav-link active" aria-current="page" href="index.html">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="historia-rock-urbano.html">Historia</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="recomendacion-rock-urbano.html">Recomendación músical</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-			</header>
 
+  <body>
+		<header>
+			<!--Barra de navegacion-->
+			<nav class="menu-principal navbar navbar-expand-lg">
+				<div class="container-fluid ms-4">
+					<a class="navbar-brand" href="index.html">
+						<img class="me-4" src="./sources/images/imagen-nav.png" alt="calavera-rock-urbano">
+					</a>
+					<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#e8e1d2" class="bi bi-list" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+							</svg>
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="recomendacion-rock-urbano.html">Recomendación músical</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--Contenido principal-->
+		<main>
 			<section class="inicio">
 			<!--Imagen principal-->	
-				<div class=" w-100 d-none d-sm-block">
-					<img src="./sources/images/elharagan.svg" class=" imagen-principal img-fluid bordert-3" alt="elharagan">
+				<div class="w-100 imagen-principal">
+					<img src="./sources/images/elharagan.svg" class="img-fluid bordert-3" alt="elharagan">
 				</div>
+				
 				<!--cuerpo home-->
+				<h1 class="text-center text-white mt-5 mb-5">ROCK URBANO</h1>
+
+				<!-- Definicion de rock urbano -->
+				<div class="que-es-rockurbano shadow-lg">
+					<div class="texto-que-es-rockurbano">
+						<h2 class="text-center">¡Que viva el rock!</h2>
+						<p>
+							El rock urbano mexicano va más allá de la música; es una forma de expresión cultural que refleja las realidades de la vida en México y se convierte en una voz para las clases trabajadoras y desfavorecidas. A través de sus letras y su música, el género aborda cuestiones sociales y políticas, a la vez que proporciona un sentido de identidad y pertenencia a quienes se identifican con él.
+						</p>
+					</div>	
+					
+				</div>
+
+				<div class="container mt-5 mb-5">
+					<div class="row d-flex justify-content-center">
+						<!--Historia del rock urbano-->
+						<h2 class="text-center text-white mb-5">Historia</h2>
+
+						<div class="info-historia col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Orígenes (1970-1980)</h5>
+									<hr>
+									<p class="card-text">
+										El rock urbano mexicano encuentra sus raíces en el rock and roll clásico, el blues y el rock de bandas británicas y estadounidenses. Bandas como Three Souls in My Mind (El Tri), Los Dug Dug's, y El Haragán y Compañía comenzaron a experimentar con estos géneros y a incorporar letras que abordaban temas de la vida en las calles de las ciudades mexicanas.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="info-historia col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Consolidación (1980-1990)</h5>
+									<hr>
+									<p class="card-text">
+										Durante la década de 1980, el género se consolidó con la aparición de bandas icónicas como Botellita de Jerez, Maldita Vecindad y los Hijos del Quinto Patio, y La Cuca. Estas bandas siguieron fusionando el rock con elementos de música tradicional mexicana y letras que reflejaban la realidad urbana y social de México.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="info-historia col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Expansión y diversificación (1990 en adelante)</h5>
+									<hr>
+									<p class="card-text">
+										A partir de la década de 1990, el rock urbano mexicano continuó diversificándose y experimentando con diferentes estilos musicales. Bandas como El Gran Silencio, Panteón Rococó y Tijuana No! incorporaron elementos de cumbia, ska y reggae a su música.
+									</p>
+								</div>
+							</div>
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--Bandas influyentes-->
+				<div class="container">
+					<div class="row justify-content-center">
+						<h2 class="text-center text-white mb-5">Bandas influyentes</h2>
+
+						<div class="info-bandarock col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<img src="/sources/images/botellitajerez.jpg" class="card-img-top" alt="botellitajerez">
+								<div class="card-body">
+									<h5 class="card-title">Botellita de Jerez</h5>
+									<p class="card-text">
+										Con su estilo irreverente y letras satíricas, esta banda se convirtió en un referente del rock urbano mexicano.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="info-bandarock col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<img src="/sources/images/malditavecindad.jpg" class="card-img-top" alt="malditavecindad">
+								<div class="card-body">
+									<h5 class="card-title">Maldita Vecindad y los Hijos del Quinto Patio</h5>
+									<p class="card-text">
+										Con su fusión de rock, ska y elementos de música latina, esta banda se destacó por su energía en el escenario y su compromiso social.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="info-bandarock col-12 col-md-6 col-lg-4 mb-5">
+							<div class="card">
+								<img src="/sources/images/lacuca.jpg" class="card-img-top" alt="lacuca">
+								<div class="card-body">
+									<h5 class="card-title">La Cuca</h5>
+									<p class="card-text">
+										Con letras provocativas y un estilo musical crudo, La Cuca ganó una gran base de seguidores y sigue siendo una de las bandas más emblemáticas del género.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
-		</main>
-		
-		<footer>
-			
+
+			<!-- pie de pagina -->
+		<footer class="mt-5">
+			<div class="informacion-footer">
+				<p class="text-white">
+					Gutiérrez Barajas María de los Angeles 5-H
+				</p>
+			</div>
 		</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+		</main>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
