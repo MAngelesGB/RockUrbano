@@ -1,0 +1,51 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #755b4d !important;
+}
+
+/* ---------> MENU - NAV <--------*/
+nav.menu-principal{
+	background-color: #692021;
+	box-shadow:-1px -2px 20px 0px #1E1E1E; 
+	position: sticky;
+	top: 0;
+}
+
+nav.menu-principal .navbar-toggler:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+nav.menu-principal .navbar-brand{
+	padding: 0;
+	margin: 0;
+}
+
+nav.menu-principal .navbar-brand img{
+	height: 2.5em;
+}
+
+nav.menu-principal ul.navbar-nav li.nav-item a.nav-link{
+	color: #e8e1d2;
+	font-weight: bold;
+	font-size: 18px; 
+}
+
+nav.menu-principal ul.navbar-nav li.nav-item a.nav-link:hover{
+	color: #c5b09e;
+	
+}
+
+
+
+/* ---------> SECCION - PRINCIPAL <--------*/
+
+/*section.inicio img.imagen-principal{
+	border-top: solid 10px #2D2543;
+	border-bottom: solid 10px #2D2543;
+}*/
+
+
+
+
