@@ -168,6 +168,25 @@ section.inicio .container .info-musica .list-group a{
 	position: static;
 }
 
+section.inicio .tabla-otras-bandas { 
+	text-align: center;
+}
+
+section.inicio .tabla-otras-bandas table thead th{ 
+	background-color: #c5b09e;
+}
+
+section.inicio .tabla-otras-bandas table tbody th
+{
+	background-color: #e8e1d2;
+}
+
+section.inicio .tabla-otras-bandas table tbody td:nth-child(even) 
+{
+	background-color: #c5b09e;
+}
+
+
 /* ---------> SECCION - RECOMENDACION MUSICAL <--------*/
 
 section.recomendacion-musica{
