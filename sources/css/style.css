@@ -2,6 +2,8 @@ body{
 	padding: 0;
 	margin: 0;
 	background-color: #755b4d !important;
+	font-family: 'Heebo', sans-serif !important;
+	font-weight: 400;
 }
 
 	
@@ -31,11 +33,12 @@ nav.menu-principal .navbar-brand img{
 
 nav.menu-principal ul.navbar-nav li.nav-item a.nav-link{
 	color: #e8e1d2;
-	font-size: 18px; 
+	font-size: 20px; 
 }
 
 nav.menu-principal ul.navbar-nav li.nav-item a.nav-link:hover{
 	color: #c5b09e;
+	text-decoration: underline;
 	
 }
 
@@ -44,6 +47,26 @@ nav.menu-principal ul.navbar-nav li.nav-item a.nav-link:hover{
 
 section.inicio{
 	margin-top: 46px;
+}
+
+section.inicio h1{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	font-weight:1000;
+	font-size: 145px; 
+	color: #692021;
+	text-shadow: black -1px 5px 4px;
+}
+
+section.inicio h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
+}
+
+section.inicio h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 700;
+	font-size: 45px;
 }
 
 section.inicio .que-es-rockurbano{
@@ -58,13 +81,21 @@ section.inicio .que-es-rockurbano .texto-que-es-rockurbano{
 	text-align: justify;
 	font-size: 26px;
 	width: 73%;
-	color: #e8e1d2;
+	color: white;
+}
+
+section.inicio .que-es-rockurbano .titulo-que-es-rockurbano{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 50px;
+	text-decoration: underline;
 }
 
 section.inicio .que-es-rockurbano .texto-que-es-rockurbano p{
 	text-align: justify;
 	font-size: 20px;
 	margin-top: 35px;
+	font-size: 27px;
 }
 
 section.inicio .container .info-historia{
@@ -78,16 +109,29 @@ section.inicio .container .info-historia .card{
 	text-align: justify;
 	padding: 8px;
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-	width: 95%;
+	width: 100%;
+	border: 0;
+}
+
+section.inicio .container .info-historia .card p.card-text{
+	font-size: 18px;
 }
 
 section.inicio .container .info-historia .card .card-body .card-title{
 	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
 }
+
+section.inicio .container .info-bandarock .card p.card-text{
+	font-size: 19px;
+}
+
 
 section.inicio .container .info-historia .card .card-body hr{
 	border: 2px solid  #692021;;
 }
+
 
 section.inicio .container .info-bandarock{
 	display: flex;
@@ -100,6 +144,19 @@ section.inicio .container .info-bandarock .card{
 	background-color: #cfa566;
 	width: 90%;
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	border: 0;
+}
+
+section.inicio .container .info-bandarock .card .card-title{
+	text-align: center;
+	margin-bottom: 22px;
+	font-size:22px;
+	font-weight: bold;
+}
+
+section.inicio .container .info-bandarock .card p.card-text{
+	font-size: 19px;
+	text-align: justify;
 }
 
 section.inicio .container .info-musica .list-group li.list-group-item.active{
@@ -114,13 +171,20 @@ section.inicio .container .info-musica .list-group a{
 /* ---------> SECCION - RECOMENDACION MUSICAL <--------*/
 
 section.recomendacion-musica{
-	margin-top: 90px;
+	margin-top: 120px;
+}
+
+section.recomendacion-musica h1
+{
+	font-family: 'Sofia Sans Condensed', sans-serif;
+	font-size: 45px;
 }
 
 section.recomendacion-musica .container .info-musica{
 	display: flex;
 	justify-content: center;
 }
+
 section.recomendacion-musica .container .info-musica .list-group{
 	display: flex;
 	justify-content: center;
@@ -135,6 +199,8 @@ section.recomendacion-musica .container .info-musica img.card-img-top
 }
 
 section.recomendacion-musica .container .info-musica .list-group li.list-group-item.active{
+	font-size: 20px;
+	font-weight: bold;
 	text-align: center;
 	background-color: #cfa566;
 	border:#cfa566; 
@@ -142,6 +208,7 @@ section.recomendacion-musica .container .info-musica .list-group li.list-group-i
 }
 
 section.recomendacion-musica .container .info-musica .list-group a{
+	font-size: 18px;
 	position: static;
 	background-color: #c5b09e;
 	border: #c5b09e; 
@@ -170,22 +237,76 @@ footer{
 	text-align: center;
 }
 
+/* ---------> MEDIA - DIMENCIONES DE TABLET HACIA ABAJO  <--------*/
 @media (max-width: 990px){
 	section.inicio{
 		margin-top: 66px;
 	}
+
+	section.inicio h1{
+		font-size: 85px; 
+	}
+
+	section.inicio h2{
+		font-size: 26px;
+	}
+
+	section.inicio h3{
+		font-size: 21px;
+	}
+
+	section.inicio h3{
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-weight: 700;
+		font-size: 45px;
+	}
+
 	section.inicio .que-es-rockurbano{
-		padding: 25px;
+		padding: 23px;
 	}
 	section.inicio .que-es-rockurbano .texto-que-es-rockurbano{
 		width: 85%;
 	}
 
+	section.inicio .que-es-rockurbano .texto-que-es-rockurbano p{
+		font-size: 18px;
+	}
+
+	section.inicio .container .info-bandarock .card p.card-text{
+		font-size: 16px;
+	}
+	
+
 	section.inicio .container .info-historia .card{
 		width: 100%;
 	}
 
+	section.inicio .container .info-historia .card .card-body .card-title{
+		font-size: 19px;
+	}
+
+	section.inicio .container .info-historia .card p.card-text{
+		font-size: 16px;
+	}
+
 	section.inicio .container .info-bandarock .card{
+		width: 90%;
+	}
+
+	section.inicio .container .info-bandarock .card .card-title{
+		font-size:19px;
+	}
+
+	section.inicio .container .info-bandarock .card p.card-text{
+		font-size: 16px;
+	}
+
+	section.recomendacion-musica h1
+	{
+		font-size: 35px;
+	}
+
+	section.recomendacion-musica .container .info-musica .list-group{
 		width: 90%;
 	}
 }
