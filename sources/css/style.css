@@ -234,7 +234,13 @@ footer{
 	background-color: #692021;
 	position: absolute;
 	padding: 25px;
-	text-align: center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .informacion-footer p{
+	margin:0;
 }
 
 /* ---------> MEDIA - DIMENCIONES DE TABLET HACIA ABAJO  <--------*/
