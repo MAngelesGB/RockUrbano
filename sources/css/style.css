@@ -74,7 +74,7 @@ section.inicio .que-es-rockurbano{
 	justify-content: center;
 	background-color: #ce8a3b;
 	width: 100%;
-	padding: 90px;
+	padding: 85px;
 }
 
 section.inicio .que-es-rockurbano .texto-que-es-rockurbano{
@@ -176,15 +176,10 @@ section.inicio .tabla-otras-bandas table thead th{
 	background-color: #c5b09e;
 }
 
-section.inicio .tabla-otras-bandas table tbody th
-{
-	background-color: #e8e1d2;
+section.inicio .tabla-otras-bandas table tbody th, td{
+	background-color: #e8e1d2 !important;
 }
 
-section.inicio .tabla-otras-bandas table tbody td:nth-child(even) 
-{
-	background-color: #c5b09e;
-}
 
 
 /* ---------> SECCION - RECOMENDACION MUSICAL <--------*/
@@ -197,6 +192,9 @@ section.recomendacion-musica h1
 {
 	font-family: 'Sofia Sans Condensed', sans-serif;
 	font-size: 45px;
+	color:#692021;
+	font-weight: bolder;
+	text-align: center;
 }
 
 section.recomendacion-musica .container .info-musica{
@@ -261,6 +259,7 @@ footer{
 footer .informacion-footer p{
 	margin:0;
 }
+
 
 /* ---------> MEDIA - DIMENCIONES DE TABLET HACIA ABAJO  <--------*/
 @media (max-width: 990px){
